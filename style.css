@@ -49,7 +49,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 nav ul{
     display: flex;
@@ -124,4 +124,72 @@ main section{
 }
 .what-i-do>p{
   margin-bottom: 30px;
+}
+/* Resume Section */
+.resume-container{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.resume-column-title{
+    font-size: 30px;
+}
+.experience-title{
+    font-size: 25px ;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experience-description,.experience-sub-title{
+    color: #757575;
+}
+.resume hr {
+    margin-top: 30px;
+}
+.text-center-btn{
+    text-align: center;
+}
+/* Footer Section */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-column .name ,.email{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 30px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+.section-title{
+    text-align: left;
+}
+.message-area{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 32px 134px 30px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
 }
